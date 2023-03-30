@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+
+.button-white {
+    font-family: 'Open Sans';
+    color: #165C7D;
+    background: #ffffff;
+    border: 1px solid #165C7D;
+    border-radius: 2px;
+}
+
+.button-blue {
+    font-family: 'Open Sans';
+    background: #165C7D;
+    color: #ffffff
+}
+
+
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: "Exo", sans-serif;
+  }
+  
+  h1 {
+    font-family: "Exo", sans-serif;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  .btn {
+    padding: 4px 16px;
+    margin: 0px 8px;
+    border-radius: 2px;
+    font-size: 1em;
+    font-family: "Exo", sans-serif;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    transition: 0.3s;
+  }
+  
+  .btn-default {
+    border: 1px solid #125d79;
+    color: white;
+    background-color: #125d79;
+  }
+  
+  .btn-default:hover {
+    background-color: #012f44;
+  }
+  
+  .btn-default:disabled {
+    background-color: #a2becb;
+    border: 0px;
+  }
+  
+  .btn-transparent {
+    border: 1px solid #023d55;
+    color: #125d79;
+    background-color: transparent;
+  }
+  
+  .btn-transparent:hover {
+    background-color: rgba(2, 61, 85, 0.1);
+  }
+  

@@ -1,0 +1,51 @@
+  .label {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    color: #040f14;
+  }
+
+  form {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex: 1;
+  }
+
+  input {
+    background: #ffffff;
+    width: 270px;
+    height: 34px;
+    border: 1px solid #889499;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+
+  .form-control {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .error {
+    color: #f44336;
+    font-size: 0.8em;
+  }
+
+  .invalid {
+    border-color: #f44336;
+  }
+
+  .btn-submit {
+    height: 34px;
+    margin-left: 24px;
+    min-width: 172px;
+  }
+
+  .spinner {
+    animation: fa-spin 1s infinite linear !important;
+  }

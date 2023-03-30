@@ -1,0 +1,71 @@
+/* SIDE BAR CSS */
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100px;
+  background-color: #165C7D;
+}
+
+.sidebar-logo {
+  padding: 10px 15px 10px 30px;
+  font-size: 20px;
+  background-color: #e9ecef;
+}
+
+.sidebar-navigation {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.sidebar-navigation li {
+  padding-bottom: 10px;
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+  line-height: 20px;
+}
+
+.sidebar-navigation li a {
+  padding: 10px 30px 10px 30px;
+  display: block;
+  color: #739DB1;
+}
+
+.sidebar-navigation li .fa {
+  margin-right: 10px;
+}
+
+.sidebar-navigation li a:active,
+.sidebar-navigation li a:hover,
+.sidebar-navigation li a:focus {
+  text-decoration: none;
+  color: #FFF;
+  outline: none;
+}
+
+
+.sidebar-navigation li:hover::before {
+  width: 100%;
+}
+
+.sidebar-navigation .header {
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #165C7D;
+  padding: 10px 0px 10px 0px;
+}
+
+.sidebar-navigation .header::before {
+  background-color: transparent;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}

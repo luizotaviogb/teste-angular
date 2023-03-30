@@ -1,0 +1,19 @@
+<div class="wrapper">
+    <app-header></app-header>
+    <div class="container">
+        <app-progress-bar></app-progress-bar>
+        <div class="title">Informe o CPF do futuro cooperado (a)</div>
+
+        <div class="subtitle">
+            Se necessário, você poderá duplicar uma conta existente ou pausar e retomar este cadastro futuramente.<br>
+            Digite apenas os números (sem pontos ou traços).
+        </div>
+        <app-onboarding-form [loading]="loading" (formData)="getUserData($event)"></app-onboarding-form>
+
+        <div class="cardContainer" *ngIf="user">
+            <app-cpf-card [user]="user"></app-cpf-card>
+            <app-account-card [account]="account" *ngFor="let account of user?.accounts"></app-account-card>
+        </div>
+    </div>
+    <app-footer [showNewAdmissionButton]="user? true : false"></app-footer>
+</div>

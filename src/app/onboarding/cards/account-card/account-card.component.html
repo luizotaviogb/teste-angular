@@ -1,0 +1,20 @@
+<div class="card">
+    <div class="title-container">
+        <div class="card-title">
+            {{account?.accountType}}
+        </div>
+        <div class="label">{{account?.cooperativa}}</div>
+    </div>
+    <div class="horizontal">
+        <div>
+            <fa-icon class="icon" [icon]="faCreditCard"></fa-icon>
+        </div>
+        <div class="vertical">
+            <div class="label">Número da conta</div>
+            <div>{{account?.accountNumber}}</div>
+        </div>
+    </div>
+    <div class="horizontal">
+        <a href="#">Duplicar conta</a>
+    </div>
+</div>

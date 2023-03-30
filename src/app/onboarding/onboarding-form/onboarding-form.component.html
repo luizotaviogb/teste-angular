@@ -1,0 +1,12 @@
+<form [formGroup]="accountForm" (ngSubmit)="submitForm()">
+    <div class="form-control">
+        <label for="cpfField" class="label">CPF</label>
+        <input formControlName="cpf" maxlength="14" required id="cpfField" placeholder="000.000.000-00"
+            [class.invalid]="cpf?.invalid && cpf?.touched">
+    </div>
+    <button class="btn btn-default btn-submit" type="submit" [disabled]="cpf?.invalid">
+        <fa-icon *ngIf="loading" class="spinner" [spin]="true" [icon]="faSpinner"></fa-icon>
+        <span *ngIf="!loading">Consultar por CPF</span>
+    </button>
+</form>
+<span class="error" *ngIf="cpf?.invalid && cpf?.touched">Informe um CPF válido</span>

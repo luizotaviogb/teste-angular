@@ -1,0 +1,79 @@
+header {
+    right: 76px;
+    padding: 2%;
+    background-color: #fff;
+    display: flex;
+}
+
+.header-container {
+    flex-direction: column;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Exo", sans-serif;
+    color: #101213;
+}
+
+.header-subtitle {
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #787878;
+}
+
+img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #125d79;
+}
+
+.button-header {
+    border-radius: 15px !important;
+    padding: 8px 16px;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    margin: 0px 8px;
+}
+
+.profileIcon {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    right: 19px;
+    color: #125d79;
+    font-size: 24px;
+}
+
+fa-icon[data-count] {
+    position: relative;
+}
+
+fa-icon[data-count]:after {
+    position: absolute;
+    right: -0.75em;
+    top: -0.75em;
+    content: attr(data-count);
+    padding: 0.25em;
+    border-radius: 1vh;
+    line-height: 0.9em;
+    color: white;
+    background: rgba(255, 0, 0, 1);
+    text-align: center;
+    min-width: 1.75em;
+    font: bold 0.4em sans-serif;
+}
+
+fa-icon {
+    color: #125d79;
+    font-size: 24px;
+}

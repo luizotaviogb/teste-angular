@@ -1,0 +1,27 @@
+<div class="card">
+    <div class="title-container">
+        <div class="card-title">
+            Situação cadastral do CPF
+        </div>
+        <div class="label">Consulta na Receita Federal</div>
+    </div>
+    <div class="horizontal">
+        <div>
+            <fa-icon class="icon" [icon]="faUser"></fa-icon>
+        </div>
+        <div class="vertical">
+            <div class="label">Nome</div>
+            <div id="name">{{user?.name}}</div>
+        </div>
+    </div>
+    <div class="horizontal">
+        <div>
+            <fa-icon *ngIf="user?.cpfSituation" class="success-check" [icon]="faCheckCircle"></fa-icon>
+            <fa-icon *ngIf="user?.cpfSituation === false" class="error" [icon]="errorIcon"></fa-icon>
+        </div>
+        <div class="vertical">
+            <div class="label">Situação do CPF</div>
+            <div>{{user?.cpfSituation ? "Regular" : "Irregular"}}</div>
+        </div>
+    </div>
+</div>

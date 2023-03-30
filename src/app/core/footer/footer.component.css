@@ -1,0 +1,11 @@
+footer {
+  background-color: #fff;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+}
+
+.btn-footer {
+  padding: 4px 32px;
+}
