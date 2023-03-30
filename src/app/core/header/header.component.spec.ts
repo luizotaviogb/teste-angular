@@ -30,7 +30,7 @@ describe('HeaderComponent', () => {
   });
 
   it('should have correct header sub title', () => {
-    const headerSubTitle = fixture.nativeElement.querySelector('.header-sub-title');
+    const headerSubTitle = fixture.nativeElement.querySelector('.header-subtitle');
     expect(headerSubTitle.textContent).toContain('Cadastro / Admissão do Cooperado / Nova Admissão de Cooperado');
   });
 

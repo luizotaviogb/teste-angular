@@ -15,5 +15,5 @@
             <app-account-card [account]="account" *ngFor="let account of user?.accounts"></app-account-card>
         </div>
     </div>
-    <app-footer [showNewAdmissionButton]="user? true : false"></app-footer>
+    <app-footer [showNewAdmissionButton]="user?.cpfSituation ? true : false"></app-footer>
 </div>
