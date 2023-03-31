@@ -9,7 +9,7 @@ import { OnboardingService } from './services/onboarding.service';
 })
 export class OnboardingComponent implements OnInit {
 
-  user: User | undefined
+  user: User | undefined; 
   showAccountNotFound: boolean = false
   public loading: boolean = false
 
