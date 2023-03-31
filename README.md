@@ -26,7 +26,7 @@ Use o comando a seguir para abrir o cypress e realizar os testes E2E:
 - `npx cypress open`
 
 ### Cobertura dos testes unitários
- ![TesteUnitário](https://github.com/luizotaviogb/desafio-angular/blob/master/src/assets/unitaryTestCoverage.png)
+ ![TesteUnitário](https://github.com/luizotaviogb/teste-angular/blob/master/src/assets/unitaryTestCoverage.png)
 
 ### Testes E2E
- ![CypressTest](https://github.com/luizotaviogb/desafio-angular/blob/master/src/assets/cypressTest.png)
+ ![CypressTest](https://github.com/luizotaviogb/teste-angular/blob/master/src/assets/cypressTest.png)
